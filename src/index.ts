@@ -11,8 +11,8 @@ let binary: number = 0b1010;
 let octal: number = 0o744;
 
 let anything: any = 5;
-any = false;
-any = "Falso";
+// any = false;
+// any = "Falso";
 let n: null = null;
 let notSure: unknown = 4;
 

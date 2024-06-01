@@ -2,7 +2,7 @@ const sum = (x: number, y: number): number => {
     return x + y;
 }
 
-function mutiply(x: number, y: number): number => {
+function mutiply(x: number, y: number): number {
     return x * y;
 }
 
