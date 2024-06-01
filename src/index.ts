@@ -1,6 +1,17 @@
+// Tipos básicos
 
-// Tipagem (variáveis)
+const idade: number = 5;
+const firstName: string = "Luiz";
+const isValid: boolean = false;
 
-let age: number = 5;
+let anything: any = 5;
+any = false;
+any = "Falso";
 
-console.log(age);
+// Listas
+const list: number[] = [1, 2, 3, 4, 5];
+const booleans: boolean[] = [false, true];
+const strings: string[] = ["Luiz", "Otávio"];
+
+// Tuplas
+const person: [number, string] = [1, "Luiz"];
