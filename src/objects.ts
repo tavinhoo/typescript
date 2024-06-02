@@ -5,7 +5,7 @@ type User = {
     age: number,
     gender?: Gender,
     email: string,
-    password: string
+    password?: string
     orders: Order[];
     register(): string
 }
